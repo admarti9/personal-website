@@ -13,6 +13,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Delete --pathprefix="${{ steps.pages.outputs.base_path }}" when a domain is purchased
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +25,7 @@ jobs:
       - name: Install and build
         run: |
           npm install
-          npx @11ty/eleventy
+          npx @11ty/eleventy --pathprefix="${{ steps.pages.outputs.base_path }}"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
