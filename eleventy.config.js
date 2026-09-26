@@ -1,6 +1,11 @@
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
 module.exports = function(eleventyConfig) {
-  // Pass through the public folder (CSS, images, etc.) directly to the output
-  eleventyConfig.addPassthroughCopy("public");
+  // 1. Add the HTML Base plugin to automatically rewrite absolute URLs
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+  // Copy standard static asset folders straight to the build output
+  eleventyConfig.addPassthroughCopy("content/css");
 
   return {
     dir: {
