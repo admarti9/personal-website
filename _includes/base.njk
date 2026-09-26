@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | {{ metadata.title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="/" class="logo"><strong>{{ metadata.author.name }}</strong></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/professional/">Professional</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <p>&copy; 2026 {{ metadata.author.name }}. Built with Eleventy and Git.</p>
+  </footer>
+</body>
+</html>
