@@ -9,12 +9,12 @@
 <body>
   <header>
     <nav class="nav-container">
-      <a href="./" class="logo"><strong>{{ metadata.author.name }}</strong></a>
+      <a href="/" class="logo"><strong>{{ metadata.author.name }}</strong></a>
       <ul class="nav-links">
-        <li><a href="./">Home</a></li>
-        <li><a href="./about/">About Me</a></li>
-        <li><a href="./professional/">Professional</a></li>
-        <li><a href="./blog/">Blog</a></li>
+        <li><a href="{{ metadata.url }}/">Home</a></li>
+        <li><a href="{{ metadata.url }}/about/">About Me</a></li>
+        <li><a href="{{ metadata.url }}/professional/">Professional</a></li>
+        <li><a href="{{ metadata.url }}/blog/">Blog</a></li>
       </ul>
     </nav>
   </header>
