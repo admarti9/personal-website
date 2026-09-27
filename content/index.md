@@ -4,10 +4,12 @@ title: Home
 ---
 # Welcome to My Personal Website
 
-Hi! I am a professional using JavaScript and Git to build lightweight, fast web experiences. This space acts as my home base where I share what I am working on and write down my thoughts.
+Welcome to my website! It contains information on my Bagpiping services. It is also a self-guided learning for myself in developing my own website from the ground up. So, if it looks like it was built in the early 2000s, I'm trying my best to catch up on a few decades of web development.
+
+As time passes, I may add further musings and goings on just to keep myself honest. Or it may become quite inactive. Time will tell!
 
 ## Latest Highlights
-Check out my [Professional Portfolio](/professional/) to see my past work and engineering background, or jump straight into my [Blog](/blog/) to read my latest thoughts.
+Check out the [Bagpiping Tag](/bagpiping/) to learn about the services I offer in this realm.
 
 ### Summary of Experience
 * **Front-end & Tooling:** Vanilla JS, Eleventy, Git workflows

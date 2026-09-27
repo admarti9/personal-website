@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Professional
+title: Bagpiping
 ---
 # Professional Work & Resume
 
