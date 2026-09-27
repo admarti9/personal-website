@@ -10,7 +10,3 @@ As time passes, I may add further musings and goings on just to keep myself hone
 
 ## Latest Highlights
 Check out the [Bagpiping Tag](/bagpiping/) to learn about the services I offer in this realm.
-
-### Summary of Experience
-* **Front-end & Tooling:** Vanilla JS, Eleventy, Git workflows
-* **Methodologies:** Clean architecture, Semantic HTML, Fast-loading static builds
